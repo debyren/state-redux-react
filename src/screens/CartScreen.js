@@ -25,7 +25,7 @@ const CartScreen = () => {
         <TouchableOpacity style={styles.confirm} onPress={onConfirm} >
           <View style={styles.total}>
             <Text style={styles.text}>Total:</Text>
-            <Text style={styles.text}>$ 100</Text>
+            <Text style={styles.text}>$</Text>
           </View>
         </TouchableOpacity>
       </View>
